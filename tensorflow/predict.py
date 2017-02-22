@@ -65,7 +65,7 @@ def main():
     # Predict the image
     pred = predict(args.model_path, args.image_paths)
     
-    os._exit(0)
+    #os._exit(0)
 
 if __name__ == '__main__':
     main()
